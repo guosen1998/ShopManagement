@@ -67,4 +67,6 @@ public class GoodsController {
             return "redirect:/goods/list";  //修改成功
         }
     }
+    @RequestMapping("/aa")
+    public void aa(){}
 }
